@@ -1,8 +1,8 @@
 
 {
   "liveServer.settings.port": 5502
-    // ЗДЕСЬ КАКИЕ ЛИБО ВАШИ НАСТРОЙКИ  
-    //postcss sorting
+   
+  
     "postcssSorting.config": {
         "order": [
             "custom-properties",
@@ -12,7 +12,8 @@
             "rules"
         ],
         "properties-order": [
-            // PADDINGS, MARGINS, BORDER
+           
+          
             "padding",
             "padding-block",
             "padding-block-end",
@@ -351,5 +352,6 @@
             "will-change",
         ]
     }
-  //END
+  
+    
 }

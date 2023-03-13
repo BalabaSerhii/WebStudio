@@ -21,19 +21,18 @@
 
   <body class="body">
     <header class="header-bottom">
-      <div class="container header">
+      <div class="container cont-hed header">
         <nav class="navigation-header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
+
           <ul class="header-ul list">
             <li class="header-li">
               <a href="./index.html" class="page-header">Studio</a>
             </li>
             <li class="header-li">
-              <a href="./portfolio.html" class="page-header line-h"
-                >Portfolio</a
-              >
+              <a href="./portfolio.html" class="page-header line-h">Portfolio</a>
             </li>
             <li class="header-li">
               <a href="" class="page-header">Contacts</a>
@@ -55,6 +54,72 @@
             </li>
           </ul>
         </address>
+      </div>
+
+      <button class="menu-toggle" data-menu-open>
+        <svg class="menu-icon" width="32" height="22">
+          <use href="./images/symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <div class="modal-mob" data-menu>
+        <button class="modal-button">
+          <svg class="modal-sgv-close">
+            <use
+              href="./images/symbol-defs.svg#icon-close"
+              data-menu-close
+            ></use>
+          </svg>
+        </button>
+        <ul class="modal-ul-text">
+          <li class="modal-li"><a href="./index.html"class="bbb">Studio</a></li>
+          <li class="modal-li"><a href="./portfolio.html" class="aaa">Portfolio</a></li>
+          <li class="modal-li"><a href=""class="bbb">Contacts</a></li>
+        </ul>
+        <address class="modal-adress">
+          <ul class="modal-ul">
+            <li>
+              <a href="tel:+110001111111" class="modal-contact"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="tablet">
+              <a href="mailto:info@devstudio.com" class="modal-email"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="icon-social">
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
