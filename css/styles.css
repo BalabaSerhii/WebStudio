@@ -612,6 +612,7 @@ label {
 .footer {
   display: flex;
   background-color: var(--dark);
+ 
 }
 
 .footer-end {
