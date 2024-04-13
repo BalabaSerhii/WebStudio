@@ -130,24 +130,24 @@
         <div class="container">
           <ul class="btn-nav list">
             <li class="btn-li">
-              <button class="button-nav" type="button">All</button>
+              <button class="button-nav" onclick="showAllProducts()" id="showAllBtn" type="button">All</button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" type="button">Web Site</button>
+              <button class="button-nav" onclick="filterProducts('web site')" type="button">Web Site</button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" type="button">App</button>
+              <button class="button-nav" onclick="filterProducts('app')" type="button">App</button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" type="button">Design</button>
+              <button class="button-nav" onclick="filterProducts('design')" type="button">Design</button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" type="button">Marketing</button>
+              <button class="button-nav" onclick="filterProducts('marketing')" type="button">Marketing</button>
             </li>
           </ul>
 
           <ul class="work-examples list">
-            <li class="work-li">
+            <li class="work-li" data-category="app">
               <a href="" class="examples-img">
                 <img
                   src="./images/111.jpg"
@@ -171,7 +171,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="marketing">
               <a href="" class="examples-img">
                 <img
                   src="./images/222.jpg"
@@ -194,7 +194,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="app">
               <a href="" class="examples-img"
                 ><img
                   src="./images/333.jpg"
@@ -216,7 +216,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="marketing">
               <a href="" class="examples-img"
                 ><img
                   src="./images/444.jpg"
@@ -238,7 +238,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="Design">
               <a href="" class="examples-img"
                 ><img
                   src="./images/555.jpg"
@@ -260,7 +260,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="marketing">
               <a href="" class="examples-img"
                 ><img
                   src="./images/666.jpg"
@@ -282,7 +282,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="design">
               <a href="" class="examples-img"
                 ><img
                   src="./images/777.jpg"
@@ -304,7 +304,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="web site">
               <a href="" class="examples-img"
                 ><img
                   src="./images/888.jpg"
@@ -326,7 +326,7 @@
               >
             </li>
 
-            <li class="work-li">
+            <li class="work-li" data-category="web site">
               <a href="" class="examples-img"
                 ><img
                   src="./images/999.jpg"
@@ -412,5 +412,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/portfolio.js"></script>
   </body>
 </html>
