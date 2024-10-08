@@ -17,8 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="icon" href="./images/logo.png" type="image/png">
-
+    <link rel="icon" href="./images/logo.png" type="image/png" />
   </head>
 
   <body class="body">
@@ -34,7 +33,9 @@
               <a href="./index.html" class="page-header">Studio</a>
             </li>
             <li class="header-li">
-              <a href="./portfolio.html" class="page-header line-h">Portfolio</a>
+              <a href="./portfolio.html" class="page-header line-h"
+                >Portfolio</a
+              >
             </li>
             <li class="header-li">
               <a href="" class="page-header">Contacts</a>
@@ -73,9 +74,13 @@
           </svg>
         </button>
         <ul class="modal-ul-text">
-          <li class="modal-li"><a href="./index.html"class="bbb">Studio</a></li>
-          <li class="modal-li"><a href="./portfolio.html" class="aaa">Portfolio</a></li>
-          <li class="modal-li"><a href=""class="bbb">Contacts</a></li>
+          <li class="modal-li">
+            <a href="./index.html" class="aaa">Studio</a>
+          </li>
+          <li class="modal-li">
+            <a href="./portfolio.html" class="bbb">Portfolio</a>
+          </li>
+          <li class="modal-li"><a href="" class="bbb">Contacts</a></li>
         </ul>
         <address class="modal-adress">
           <ul class="modal-ul">
@@ -132,19 +137,50 @@
         <div class="container">
           <ul class="btn-nav list">
             <li class="btn-li">
-              <button class="button-nav" onclick="showAllProducts()" id="showAllBtn" type="button">All</button>
+              <button
+                class="button-nav"
+                onclick="showAllProducts()"
+                id="showAllBtn"
+                type="button"
+              >
+                All
+              </button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" onclick="filterProducts('web site')" type="button">Web Site</button>
+              <button
+                class="button-nav"
+                onclick="filterProducts('web site')"
+                type="button"
+              >
+                Web Site
+              </button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" onclick="filterProducts('app')" type="button">App</button>
+              <button
+                class="button-nav"
+                onclick="filterProducts('app')"
+                type="button"
+              >
+                App
+              </button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" onclick="filterProducts('design')" type="button">Design</button>
+              <button
+                class="button-nav"
+                onclick="filterProducts('design')"
+                type="button"
+              >
+                Design
+              </button>
             </li>
             <li class="btn-li">
-              <button class="button-nav" onclick="filterProducts('marketing')" type="button">Marketing</button>
+              <button
+                class="button-nav"
+                onclick="filterProducts('marketing')"
+                type="button"
+              >
+                Marketing
+              </button>
             </li>
           </ul>
 
@@ -414,6 +450,8 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/portfolio.js"></script>
   </body>
 </html>

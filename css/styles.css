@@ -451,9 +451,9 @@ label {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.work-li:nth-child(3n + 3) {
+/* .work-li:nth-child(3n + 3) {
   margin-right: 0px;
-}
+} */
 
 .work-li:hover,
 .work-li:focus {
@@ -612,7 +612,6 @@ label {
 .footer {
   display: flex;
   background-color: var(--dark);
- 
 }
 
 .footer-end {
@@ -1112,6 +1111,7 @@ label {
   background-color: #ffffff;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  z-index: 999
 }
 
 .modal-ul-text {
